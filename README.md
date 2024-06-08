@@ -66,3 +66,19 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+# Getting Started with This App
+
+```bash
+npm install
+```
+
+In the terminal project directory, you can run:
+
+### `php spark serve`
+
+Runs the app in the development mode.\
+Open [http://127.0.0.1:8080](http://127.0.0.1:8080) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
